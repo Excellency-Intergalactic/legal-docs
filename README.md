@@ -1,2 +1,2 @@
 # E-I Legal
- All Legal Documents
+ This repository contains all Legal Documents
