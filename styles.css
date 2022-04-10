@@ -2930,10 +2930,7 @@ a:hover {
     font-size: 40px;
 }
 
-@media screen and (max-width: 991px) {
-    .body {
-        overflow: hidden;
-    }
+
 
     .link-block {
         display: block;
@@ -2946,6 +2943,8 @@ a:hover {
 
     .section-top {
         position: relative;
+        height: 700px;
+        overflow: hidden;
     }
 
     .image-2 {
@@ -2989,198 +2988,7 @@ a:hover {
         -o-object-fit: fill;
         object-fit: fill;
     }
-}
 
-@media screen and (max-width: 767px) {
-    .footer {
-        padding: 40px 20px;
-    }
-
-    .footer-flex-container {
-        overflow: scroll;
-        -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-        justify-content: space-around;
-        -webkit-flex-wrap: nowrap;
-        -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    }
-
-    .footer-links {
-        overflow: scroll;
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-
-    .navbar-2 {
-        position: fixed;
-        left: 0%;
-        top: 0%;
-        right: 0%;
-        bottom: auto;
-        z-index: auto;
-        display: block;
-        -o-object-fit: contain;
-        object-fit: contain;
-    }
-
-    .image {
-        float: left;
-        clear: both;
-    }
-
-    .section-top {
-        position: relative;
-        z-index: auto;
-        width: 100%;
-        float: right;
-        clear: both;
-        border: 1px none transparent;
-        background-clip: padding-box;
-        -webkit-text-fill-color: inherit;
-    }
-
-    .image-2 {
-        background-color: transparent;
-    }
-
-    .heading-4 {
-        font-size: 50px;
-    }
-
-    .columns {
-        display: block;
-    }
-
-    .heading-5 {
-        position: absolute;
-        left: 0%;
-        top: 0%;
-        right: 0%;
-        bottom: auto;
-        display: block;
-        overflow: visible;
-        margin-right: auto;
-        margin-left: auto;
-        color: #fff;
-        font-size: 40px;
-        text-align: center;
-    }
-
-    .product-section {
-        padding: 40px 20px;
-    }
-
-    .grid {
-        -ms-grid-columns: 1fr 100fr;
-        grid-template-columns: 1fr 100fr;
-        -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-}
-
-@media screen and (max-width: 479px) {
-    .footer {
-        position: relative;
-        padding-right: 20px;
-        padding-left: 20px;
-        text-align: left;
-        -o-object-fit: fill;
-        object-fit: fill;
-    }
-
-    .footer-flex-container {
-        overflow: scroll;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-        justify-content: space-around;
-        -webkit-box-align: stretch;
-        -webkit-align-items: stretch;
-        -ms-flex-align: stretch;
-        align-items: stretch;
-    }
-
-    .footer-logo-link {
-        overflow: visible;
-        height: 60px;
-        margin-bottom: 111px;
-        -webkit-align-self: center;
-        -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-        -webkit-box-flex: 0;
-        -webkit-flex: 0 auto;
-        -ms-flex: 0 auto;
-        flex: 0 auto;
-        -o-object-fit: contain;
-        object-fit: contain;
-        -o-object-position: 50% 50%;
-        object-position: 50% 50%;
-    }
-
-    .footer-heading {
-        margin-top: 20px;
-    }
-
-    .footer-links {
-        -o-object-fit: contain;
-        object-fit: contain;
-    }
-
-    .text-block-3 {
-        text-align: center;
-    }
-
-    .navbar-2 {
-        overflow: visible;
-        -o-object-fit: fill;
-        object-fit: fill;
-    }
-
-    .large-fact {
-        font-size: 150px;
-    }
-
-    .section-top {
-        overflow: visible;
-    }
-
-    .image-3 {
-        position: absolute;
-        margin-top: 40px;
-    }
-
-    .heading-4 {
-        font-size: 20px;
-    }
-
-    .container {
-        position: relative;
-        display: block;
-        text-align: center;
-    }
-
-    .heading-5 {
-        margin-left: 10px;
-        line-height: 50px;
-    }
-
-    .container-2 {
-        position: relative;
-        overflow: visible;
-    }
-
-    .product-section {
-        overflow: scroll;
-        -o-object-fit: scale-down;
-        object-fit: scale-down;
-    }
-}
 
 #w-node-_9abe3f06-2b02-e849-007e-bdd03abaa89c-e2188bd6 {
     -ms-grid-column-align: stretch;
